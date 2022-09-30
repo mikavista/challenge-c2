@@ -1,0 +1,56 @@
+/* Parallax scrolling */
+#parallax1 {
+    /* Image used */
+    background-image: url("Sports1.jpg");
+  
+    /* Height */
+    min-height: 500px;
+  
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #parallax2 {
+    /* Image used */
+    background-image: url("Sports2.jpg");
+  
+    /* Height */
+    min-height: 500px;
+  
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #parallax3 {
+    /* Image used */
+    background-image: url("Sports3.jpg");
+  
+    /* Height */
+    min-height: 500px;
+  
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #parallax4 {
+    /* Image used */
+    background-image: url("Sports4.jpg");
+  
+    /* Height */
+    min-height: 500px;
+  
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
