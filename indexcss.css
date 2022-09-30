@@ -18,8 +18,7 @@ html {
 }
 
 .bar a:hover{
-  background-color: red;
-  color: white;
+  color: red;
   display: inline-block;
 }
 
