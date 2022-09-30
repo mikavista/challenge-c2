@@ -31,7 +31,10 @@ html {
   
     /* Height */
     min-height: 500px;
-  
+
+    /* heigth of image */
+    height: 80vh;
+
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -46,6 +49,9 @@ html {
     /* Height */
     min-height: 500px;
   
+    /* heigth of image */
+    height: 80vh;
+
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -60,6 +66,9 @@ html {
     /* Height */
     min-height: 500px;
   
+    /* heigth of image */
+    height: 80vh;
+
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -74,6 +83,9 @@ html {
     /* Height */
     min-height: 500px;
   
+    /* heigth of image */
+    height: 80vh;
+
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
