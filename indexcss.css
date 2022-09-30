@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Use for white border and around body */
+body {
+  margin: 0px;
+}
+
 /* navigation bar */
 .bar {
     overflow: hidden;
