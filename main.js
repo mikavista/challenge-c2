@@ -23,10 +23,6 @@ function duiken() {
 
 
 
-
-
-
-
   function ShowRadioButtonDiv (IdBaseName, NumberOfButtons) {
     for (x=1;x<=NumberOfButtons;x++) {
         CheckThisButton = IdBaseName + x;
