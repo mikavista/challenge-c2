@@ -10,12 +10,12 @@ body {
 /* navigation bar */
 .bar {
     overflow: hidden;
-    background-color: rgb(19, 40, 21);
+    background-color: rgb(227, 100, 20);
     text-align: center;
     padding: 20px 20px; 
     font-size: 17px;
     border: solid 5px;
-    border-color: rgb(251, 139, 36);
+    border-color: rgb(154, 3, 30);
 }
 
 /* Linkcolor in de navigation bar */
@@ -25,7 +25,7 @@ body {
 }
 
 .bar a:hover{
-  color: red;
+  color: rgb(9, 12, 105);
   display: inline-block;
 }
 
@@ -35,10 +35,10 @@ body {
     background-image: url("Sports1.jpg");
     
     /* Height */
-    min-height: 500px;
+    min-height: 300px;
 
     /* heigth of image */
-    height: 80vh;
+    height: 75%;
 
     /* Parallax scrolling effect */
     background-attachment: fixed;
@@ -52,10 +52,10 @@ body {
     background-image: url("Sports2.jpg");
   
     /* Height */
-    min-height: 500px;
+    min-height: 300px;
   
     /* heigth of image */
-    height: 80vh;
+    height: 75%;
 
     /* Parallax scrolling effect */
     background-attachment: fixed;
@@ -69,10 +69,10 @@ body {
     background-image: url("Sports3.jpg");
   
     /* Height */
-    min-height: 500px;
+    min-height: 300px;
   
     /* heigth of image */
-    height: 80vh;
+    height: 75%;
 
     /* Parallax scrolling effect */
     background-attachment: fixed;
@@ -86,14 +86,30 @@ body {
     background-image: url("Sports4.jpg");
   
     /* Height */
-    min-height: 500px;
+    min-height: 300px;
   
     /* heigth of image */
-    height: 80vh;
+    height: 75%;
 
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .text{
+    text-align: center;
+    position: relative;
+    background-color: rgb(251, 139, 36);
   }
