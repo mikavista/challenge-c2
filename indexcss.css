@@ -98,7 +98,22 @@ body {
     background-size: cover;
   }
 
+  #parallax5 {
+    /* Image used */
+    background-image: url("Divi-Contactformulier.png");
+  
+    /* Height */
+    min-height: 300px;
+  
+    /* heigth of image */
+    height: 75%;
 
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 
