@@ -119,14 +119,30 @@
 
 /* all information */
   .text{
+    padding: 40px 100px; /* left is height and right is width */
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    background-color: rgb(251, 139, 36);
+    font-family: sans-serif;
+    word-break: break-word;
+  }
+
+/* Evenenmenten page */
+  .javascript{
     text-align: center;
     position: relative;
     background-color: rgb(251, 139, 36);
     font-family: sans-serif;
+    word-break: break-word;
   }
 
 /* Home page */
   #home{
+    text-align: center;
+    position: relative;
+    background-color: rgb(251, 139, 36);
+    font-family: sans-serif;
     font-size: 50px;
 /* changing color and colorchange speed */
     background-image: 
@@ -141,6 +157,4 @@
     to {
         background-position: 2500vh;
     }
-}
-
-  
+} 
