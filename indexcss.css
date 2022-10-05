@@ -32,7 +32,7 @@ body {
 /* Parallax scrolling */
 #parallax1 {
     /* Image used */
-    background-image: url("Sports1.jpg");
+    background-image: url("organisatiebureau.jpg");
     
     /* Height */
     min-height: 300px;
@@ -66,7 +66,7 @@ body {
 
   #parallax3 {
     /* Image used */
-    background-image: url("Sports3.jpg");
+    background-image: url("mbmain.jpg");
   
     /* Height */
     min-height: 300px;
@@ -83,7 +83,7 @@ body {
 
   #parallax4 {
     /* Image used */
-    background-image: url("Sports4.jpg");
+    background-image: url("games.png");
   
     /* Height */
     min-height: 300px;
