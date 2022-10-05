@@ -2,11 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Putting User Input into JS Objects</title>
+    <link rel="stylesheet" href="contactform.css">
 </head>
 <body>
-    
+    <h1><i>Contact form</i></h1>
+    <form>
+        <div class="formBox">
+            <center><label for="naam">Naam</label><br></center>
+            <input type="text" id="nm" placeholder="naam" required/>
+        </div>
+        <div class="formBox">
+            <center><label for="mail">Email</label><br></center>
+            <input type="text" id="ml" placeholder="email" required/>
+        </div>
+        <div class="formBox">
+            <center><label for="onderwerp">onderwerp</label><br></center>
+            <input type="text" id="ndrwrp" placeholder="onderwerp" required/>
+        </div>
+        <div class="formBox">
+            <center><label for="comment">comment</label><br></center>
+            <textarea type="text" id="cmmnt" name="message" cols="30" rows="10" id="message" placeholder="comment" required></textarea>
+        </div>
+        <div class="formBox">
+            <button id="btn">Submit</button>
+        </div>
+        <div id="msg">
+            <pre></pre>
+        </div>
+    </form>
+    <script>
+        let movies = [];
+        // example {id:1592304983049, title: 'Deadpool', year: 2015}
+        const addMovie = (ev)=>{
+            ev.preventDefault();  //to stop the form submitting
+            let movie = {
+                id: Date.now(),
+                naam: document.getElementById('nm').value,
+                mail: document.getElementById('ml').value,
+                onderwerp: document.getElementById('ndrwrp').value,
+                Comment: document.getElementById('cmmnt').value,
+            }
+            movies.push(movie);
+            document.forms[0].reset(); // to clear the form for the next entries
+            //document.querySelector('form').reset();
+
+            //for display purposes only
+            console.warn('added' , {movies} );
+            let pre = document.querySelector('#msg pre');
+            pre.textContent = '\n' + JSON.stringify(movies, '\t', 2);
+
+            //saving to localStorage
+            localStorage.setItem('MyVisitorInfo', JSON.stringify(movies) );
+        }
+        document.addEventListener('DOMContentLoaded', ()=>{
+            document.getElementById('btn').addEventListener('click', addMovie);
+        });
+    </script>
 </body>
 </html>
