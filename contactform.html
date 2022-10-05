@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Putting User Input into JS Objects</title>
+    <title>contactform</title>
     <link rel="stylesheet" href="contactform.css">
 </head>
 <body>
@@ -35,7 +35,6 @@
     </form>
     <script>
         let movies = [];
-        // example {id:1592304983049, title: 'Deadpool', year: 2015}
         const addMovie = (ev)=>{
             ev.preventDefault();  //to stop the form submitting
             let movie = {
@@ -59,7 +58,7 @@
         }
         document.addEventListener('DOMContentLoaded', ()=>{
             document.getElementById('btn').addEventListener('click', addMovie);
-        });
+        })
     </script>
 </body>
 </html>
