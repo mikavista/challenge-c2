@@ -128,18 +128,18 @@
 /* Home page */
   #home{
     font-size: 50px;
-/* speed for changing color */
-    background-color: rgb(251, 139, 36);
+/* changing color and colorchange speed */
     background-image: 
     linear-gradient(to right, rgb(95, 15, 64),rgb(154, 3, 30),rgb(227,100,20),rgb(15,76,92),blue,indigo,violet, red); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     animation: rainbow-animation 35s linear infinite;
   }
-/* changing colors */
+
+/* changing colors and speed for all letters*/
   @keyframes rainbow-animation {
     to {
-        background-position: 4500vh;
+        background-position: 2500vh;
     }
 }
 
