@@ -1,46 +1,48 @@
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+    background-color: rgb(251, 139, 36);
+  }
 
 /* Use for white border and around body */
-body {
-  margin: 0px;
-}
+  body {
+    margin: 0px;
+  }
 
 /* navigation bar */
-.bar {
-    overflow: hidden;
-    background-color: rgb(227, 100, 20);
-    text-align: center;
-    padding: 20px 20px; 
-    font-size: 17px;
-    border: solid 5px;
-    border-color: rgb(154, 3, 30);
-}
+  .bar {
+      overflow: hidden;
+      background-color: rgb(227, 100, 20);
+      text-align: center;
+      padding: 20px 20px; 
+      font-size: 17px;
+      border: solid 5px;
+      border-color: rgb(154, 3, 30);
+      font-family: sans-serif;
+  }
 
 /* Linkcolor in de navigation bar */
-.bar a{
-  color: #ffffff;
-  text-decoration: none;
-}
+  .bar a{
+    color: #ffffff;
+    text-decoration: none;
+  }
 
-.bar a:hover{
-  color: rgb(9, 12, 105);
-  display: inline-block;
-}
+  .bar a:hover{
+    color: rgb(9, 12, 105);
+    display: inline-block;
+  }
 
 /* Parallax scrolling */
-#parallax1 {
-    /* Image used */
+  #parallax1 {
+/* Image used */
     background-image: url("organisatiebureau.jpg");
     
-    /* Height */
+/* Height */
     min-height: 300px;
 
-    /* heigth of image */
+/* heigth of image */
     height: 75%;
 
-    /* Parallax scrolling effect */
+/* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,16 +50,16 @@ body {
   }
 
   #parallax2 {
-    /* Image used */
+/* Image used */
     background-image: url("Sports2.jpg");
   
-    /* Height */
+/* Height */
     min-height: 300px;
   
-    /* heigth of image */
+/* heigth of image */
     height: 75%;
 
-    /* Parallax scrolling effect */
+/* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,16 +67,16 @@ body {
   }
 
   #parallax3 {
-    /* Image used */
+/* Image used */
     background-image: url("mbmain.jpg");
   
-    /* Height */
+/* Height */
     min-height: 300px;
   
-    /* heigth of image */
+/* heigth of image */
     height: 75%;
 
-    /* Parallax scrolling effect */
+/* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,16 +84,16 @@ body {
   }
 
   #parallax4 {
-    /* Image used */
+/* Image used */
     background-image: url("games.png");
   
-    /* Height */
+/* Height */
     min-height: 300px;
   
-    /* heigth of image */
+/* heigth of image */
     height: 75%;
 
-    /* Parallax scrolling effect */
+/* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,32 +101,46 @@ body {
   }
 
   #parallax5 {
-    /* Image used */
+/* Image used */
     background-image: url("Divi-Contactformulier.png");
   
-    /* Height */
+/* Height */
     min-height: 300px;
   
-    /* heigth of image */
+/* heigth of image */
     height: 75%;
 
-    /* Parallax scrolling effect */
+/* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-
-
-
-
-
-
-
-
+/* all information */
   .text{
     text-align: center;
     position: relative;
     background-color: rgb(251, 139, 36);
+    font-family: sans-serif;
   }
+
+/* Home page */
+  #home{
+    font-size: 50px;
+/* speed for changing color */
+    background-color: rgb(251, 139, 36);
+    background-image: 
+    linear-gradient(to right, rgb(95, 15, 64),rgb(154, 3, 30),rgb(227,100,20),rgb(15,76,92),blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 35s linear infinite;
+  }
+/* changing colors */
+  @keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+  
