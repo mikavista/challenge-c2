@@ -4,27 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>e\English Page</title>
 
     <link rel="stylesheet" href="indexcss.css">
-
 </head>
 <body>
-<!-- Navigation bar -->
+    <!-- Navigation bar -->
     <div class="bar" id="begin">
-        <a href="#about">Over ons</a>&nbsp;&nbsp;
+        <a href="#about">About us</a>&nbsp;&nbsp;
         <a href="#extreme">Extreme sports</a>&nbsp;&nbsp;
-        <a href="#evenenmenten">Evenenmenten</a>&nbsp;&nbsp;
+        <a href="#evenenmenten">Events</a>&nbsp;&nbsp;
         <a href="#contact">Contact</a>&nbsp;&nbsp;
-        <a href="engels.html"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_United_Kingdom.png?20080216232030" width="32px" height="20px"></a>
+        <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/532px-Flag_of_the_Netherlands.svg.png" width="32px" height="20px"></a>
     </div>
 <!-- End navigation bar -->
-
     <div id="parallax1"></div>
-
 <!-- Text -->
-    <div id="home" class="text">
-        Stegmann events
+    <div class="text">
+        Naam bureau
     </div>
 <!-- End text -->
 
@@ -33,13 +30,11 @@
     <div class="bar" id="about">
         <a href="#begin">Home</a>&nbsp;&nbsp;
         <a href="#extreme">Extreme sports</a>&nbsp;&nbsp;
-        <a href="#evenenmenten">Evenenmenten</a>&nbsp;&nbsp;
+        <a href="#evenenmenten">Events</a>&nbsp;&nbsp;
         <a href="#contact">Contact</a>&nbsp;&nbsp;
     </div>
 <!-- End navigation bar -->
-
     <div id="parallax2"></div>
-
 <!-- Text -->
     <div class="text">
     About us
@@ -50,14 +45,12 @@
     <div id="parallax2"></div>
     <div class="bar" id="extreme">
         <a href="#begin">Home</a>&nbsp;&nbsp;
-        <a href="#about">Over ons</a>&nbsp;&nbsp;
-        <a href="#evenenmenten">Evenenmenten</a>&nbsp;&nbsp;
+        <a href="#about">About Us</a>&nbsp;&nbsp;
+        <a href="#evenenmenten">Events</a>&nbsp;&nbsp;
         <a href="#contact">Contact</a>&nbsp;&nbsp;
     </div>
 <!-- End navigation bar -->
-
     <div id="parallax3"></div>
-
 <!-- Text -->
     <div class="text">
     Extreme sports
@@ -68,40 +61,80 @@
     <div id="parallax3"></div>
     <div class="bar" id="evenenmenten">
         <a href="#begin">Home</a>&nbsp;&nbsp;
-        <a href="#about">Over ons</a>&nbsp;&nbsp;
+        <a href="#about">About Us</a>&nbsp;&nbsp;
         <a href="#extreme">Extreme sports</a>&nbsp;&nbsp;
         <a href="#contact">contact</a>&nbsp;&nbsp;
     </div>
 <!-- End navigation bar -->
-
     <div id="parallax4"></div>
-
-<!-- evenenmenten section javascript -->
+<!-- Text -->
     <div class="text">
+    Events
+    <br><br>
+
     <script type="text/javascript" src="main.js"></script>
-    <FORM STYLE="padding-left:5px">
-        <INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName1" ONCLICK="ShowRadioButtonDiv('GroupName', 3)"/>Sport
-        <INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName2" ONCLICK="ShowRadioButtonDiv('GroupName', 3)"/>Duiken
-        <INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName3" ONCLICK="ShowRadioButtonDiv('GroupName', 3)"/>Games
-        </FORM>
-<!-- evenenmenten text section -->
+   
+   
+<!-- sectie 1 -->
+    <p id="sport" style="display:none">Hier komt sport</p>
+    <button onclick="sport()">Sport</button>
+<!-- end section 1 -->
+    <br><br>
+
+<!-- sectie 2 -->
+    <p id="duiken" style="display:none">Hier komt duiken</p>
+    <button onclick="duiken()">Duiken</button>
+<!-- end section 2-->
+   
+
+
+
+
+
+
+<FORM STYLE="padding-left:5px">
+    <INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName1" ONCLICK="ShowRadioButtonDiv('GroupName', 3)"/>Sport<BR>
+    <INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName2" ONCLICK="ShowRadioButtonDiv('GroupName', 3)"/>Duiken<BR>
+    <INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName3" ONCLICK="ShowRadioButtonDiv('GroupName', 3)"/>Games<BR>
+    </FORM>
+
+
     <DIV ID="GroupName1Div" STYLE="display:none;">Hier komt sport</DIV>
     <DIV ID="GroupName2Div" STYLE="display:none;">Hier komt duiken</DIV>
     <DIV ID="GroupName3Div" STYLE="display:none;">Hier komt Games</DIV>
-    </div>
-<!-- end evenenmenten text section -->
 
-<!-- end evenenmenten section javascript -->
+
+
+
+
 
 <!-- End text -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Navigation bar -->
     <div id="parallax4"></div>
     <div class="bar" id="contact">
         <a href="#begin">Home</a>&nbsp;&nbsp;
-        <a href="#about">Over ons</a>&nbsp;&nbsp;
+        <a href="#about">About Us</a>&nbsp;&nbsp;
         <a href="#extreme">Extreme sports</a>&nbsp;&nbsp;
-        <a href="#evenenmenten">Evenenmenten</a>&nbsp;&nbsp;
+        <a href="#evenenmenten">Events</a>&nbsp;&nbsp;
     </div>
 <!-- End navigation bar -->
 
@@ -114,6 +147,5 @@
 <!-- End text -->
 
     <div id="parallax5"></div>
-
 </body>
 </html>
