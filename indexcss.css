@@ -7,7 +7,7 @@
   body {
     margin: 0px;
   }
-  
+
 /* all information */
   .text{
     padding: 40px 100px; /* left is height and right is width */
@@ -48,4 +48,4 @@
     to {
         background-position: 2500vh;
     }
-} 
+  } 
