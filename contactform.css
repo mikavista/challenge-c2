@@ -68,3 +68,13 @@ button:hover {
 input {
   width: 230px;
 }
+
+.button_back {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+.text_shadow {
+  text-shadow: 5px 5px 5px;
+}
