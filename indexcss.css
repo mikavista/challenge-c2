@@ -48,4 +48,10 @@
     to {
         background-position: 2500vh;
     }
-  } 
+  }
+  
+/* Extreme sports video rampage */
+  #mbvideo{
+    width:300px;
+    height: 200px;
+  }
