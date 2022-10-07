@@ -7,10 +7,13 @@
 
 body {
   color: white;
+  /* text color */
   height: 100vh;
+  /* font */
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   place-items: center;
+  /* backgground design */
   background: linear-gradient(
     to bottom right, 
    #5F0F40 0%,
@@ -26,10 +29,12 @@ body {
 );
 }
 
+/* title adjustment */
 h1 {
 margin-bottom: 2rem;
 }
 
+/* form display */
 form {
   display: flex;
   align-items: center;
@@ -48,18 +53,23 @@ textarea {
   border: 1px solid black;
 }
 
+/* textarea adjustment */
 textarea {
   height: 6rem;
 }
 
 button {
+  /* button width */
   width: 8rem;
   padding: 1.4rem;
+  /* hover cursoir */
   cursor: pointer;
+  /* color design */
   background: #673de6;
   color: white;
 }
 
+/* button hover design */
 button:hover {
   box-shadow: #8d75d4;
   box-shadow: 5px 5px 5px;
@@ -69,6 +79,7 @@ input {
   width: 230px;
 }
 
+/* back to hiomepage button position */
 .button_back {
   position: absolute;
   top: 7px;
@@ -79,6 +90,7 @@ input {
   text-shadow: 5px 5px 5px;
 }
 
+/* height of mail textarea */
 #ml {
   height: 15px;
 }
