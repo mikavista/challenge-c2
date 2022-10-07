@@ -78,3 +78,7 @@ input {
 .text_shadow {
   text-shadow: 5px 5px 5px;
 }
+
+#ml {
+  height: 15px;
+}
