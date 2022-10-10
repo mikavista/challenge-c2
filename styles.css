@@ -29,7 +29,7 @@
         background-image: url("organisatiebureau.jpg");
    
 /* Height */
-        min-height: 300px;
+        min-height: 320px;
     
 /* heigth of image */
         height: 75%;
@@ -63,7 +63,7 @@
         background-image: url("mbmain.jpg");
       
 /* Height */
-        min-height: 300px;
+        min-height: 340px;
       
 /* heigth of image */
         height: 75%;
@@ -80,25 +80,8 @@
         background-image: url("games.png");
       
 /* Height */
-        min-height: 300px;
+        min-height: 340px;
      
-/* heigth of image */
-        height: 75%;
-    
-/* Parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    
-    #parallax5 {
-/* Image used */
-        background-image: url("Divi-Contactformulier.png");
-      
-/* Height */
-        min-height: 300px;
-      
 /* heigth of image */
         height: 75%;
     
