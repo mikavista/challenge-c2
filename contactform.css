@@ -91,6 +91,12 @@ input {
 }
 
 /* height of mail textarea */
+#nm {
+  height: 15px;
+}
 #ml {
+  height: 15px;
+}
+#ndrwrp {
   height: 15px;
 }
