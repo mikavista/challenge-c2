@@ -38,6 +38,7 @@
 /* changing color and colorchange speed */
     background-image: 
     linear-gradient(to right, rgb(95, 15, 64),rgb(154, 3, 30),rgb(227,100,20),rgb(15,76,92),blue,indigo,violet, red); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     animation: rainbow-animation 35s linear infinite;
