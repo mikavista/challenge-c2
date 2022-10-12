@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="indexcss.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ned-eng.css">
 
 </head>
 <body>
@@ -17,7 +18,16 @@
         <a href="#extreme">Extreme sports</a>&nbsp;&nbsp;
         <a href="#evenenmenten">Evenenmenten</a>&nbsp;&nbsp;
         <a href="contactform.html">Contact</a>&nbsp;&nbsp;
-        <a href="engels.html"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_United_Kingdom.png?20080216232030" width="32px" height="20px"></a>
+        <div class="container">
+            <div class="transition">
+              <div class="cover cover1"></div>
+              <div class="cover cover2"></div>
+              <div class="cover cover3"></div>
+            </div>
+            <div class="content">
+                <a href="engels.html" class="link"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_United_Kingdom.png?20080216232030" width="32px" height="20px"></a>
+            </div>
+        </div>
     </div>
 <!-- End navigation bar -->
 
@@ -139,7 +149,7 @@
     <script type="text/javascript" src="main.js"></script>
     <FORM STYLE="padding-left:5px">
 
-        <input type="radio" name="RadioGroupName" id="GroupName4" onclick="ShowRadioButtonDiv('GroupName', 8)"/>Persooneelsfeest
+        <input type="radio" name="RadioGroupName" id="GroupName4" onclick="ShowRadioButtonDiv('GroupName', 8)"/>Personeelsfeest
         <input type="radio" name="RadioGroupName" id="GroupName5" onclick="ShowRadioButtonDiv('GroupName', 8)"/>Race Games
         <input type="radio" name="RadioGroupName" id="GroupName6" onclick="ShowRadioButtonDiv('GroupName', 8)"/>Hackathon
         <input type="radio" name="RadioGroupName" id="GroupName7" onclick="ShowRadioButtonDiv('GroupName', 8)"/>Online Evenementen
@@ -181,4 +191,13 @@
     <div id="parallax4"></div>
 
 </body>
+<script>const link = document.querySelector(".link");
+    const transition = document.querySelector(".transition");
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      transition.classList.add("slide");
+      setTimeout(() => {
+        window.location = link.href;
+      }, 900);
+    });</script>
 </html>
