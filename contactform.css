@@ -98,5 +98,6 @@ input {
   height: 15px;
 }
 #ndrwrp {
-  height: 75px;
+  height: 180px;
+  margin-left: 0px;
 }
