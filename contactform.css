@@ -79,7 +79,7 @@ input {
   width: 230px;
 }
 
-/* back to hiomepage button position */
+/* back to homepage button position */
 .button_back {
   position: absolute;
   top: 7px;
@@ -98,5 +98,5 @@ input {
   height: 15px;
 }
 #ndrwrp {
-  height: 15px;
+  height: 75px;
 }
