@@ -35,6 +35,7 @@ margin-bottom: 2rem;
 }
 
 /* form display */
+/* form display */
 form {
   display: flex;
   align-items: center;
@@ -79,7 +80,7 @@ input {
   width: 230px;
 }
 
-/* back to homepage button position */
+/* back to hiomepage button position */
 .button_back {
   position: absolute;
   top: 7px;
@@ -98,6 +99,5 @@ input {
   height: 15px;
 }
 #ndrwrp {
-  height: 180px;
-  margin-left: 0px;
+  height: 15px;
 }
