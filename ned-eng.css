@@ -40,6 +40,6 @@
       right: -100vw;
     }
     to {
-      right: 0;
+      right: 100vh;
     }
   }
